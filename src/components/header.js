@@ -11,10 +11,10 @@ const Header = (title, date, temp) => {
   //    <span class="temp">{ temp }</span>
   //  </div>
 
-    const header = document.createElement('div');
-    const dateTag = document.createElement('span');
-    const titleTag = document.createElement('h1');
-    const tempTag = document.createElement('span')
+    const header = document.createElement('div'),
+          dateTag = document.createElement('span'),
+          titleTag = document.createElement('h1'),
+          tempTag = document.createElement('span')
 
     header.className = 'header'
     dateTag.classList.add('date');
